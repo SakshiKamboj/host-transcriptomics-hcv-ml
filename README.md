@@ -7,9 +7,9 @@ A reproducible workflow to develop machine learning models to classify the contr
 
 This repository contains a small machine-learning workflow for classifying Control and HCV-labelled samples using host gene-expression data.
 
-I prepared this as a simplified demonstration of the validation approach used in my ongoing transcriptomics work. The public example uses simulated expression values, study labels, and generic gene names because the real dataset and results are currently unpublished.
+I prepared this as a simplified demonstration of ML workflow used in my ongoing transcriptomics work. The example here uses simulated expression values, study labels, and generic gene names because the real dataset and results are currently unpublished.
 
-The results shown here demonstrate the behaviour not bezub biological findings. The purpose is to demonstrate the code, validation strategy, and interpretation of model performance.
+The results shown does not represent any biological findings. The purpose is to demonstrate the code, validation strategy, and interpretation of model performance.
 
 ## Analysis
 
@@ -27,11 +27,8 @@ The notebook:
 - saves the results, figures, and simulated-data model.
 
 ## Repository Structure
-
-```text
 host-transcriptomics-hcv-ml/
-├── notebooks/
-│   └── 01_hcv_control_ml_demo.ipynb
+└── 01_hcv_control_ml_demo.ipynb
 ├── outputs/
 │   ├── repeated_cv_results.csv
 │   ├── loso_results.csv
